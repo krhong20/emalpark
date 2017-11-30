@@ -194,15 +194,16 @@ walmartSkusToSetNumber = {
     47347999: 75129,
     55126202: 10706,
     55126196: 10707,
-    55126206: 10709
+    55126206: 10709,
+    564439680: 60161
 }
 
 walmartAddresses = [
-    "2399 S State Road 46 Terre Haute IN 47803",
-    "5555 S Us Hwy #41 Terre Haute IN 47802"
+    "1785 Cobb Pkwy S, Marietta, GA 30060",
+    "210 Cobb Pkwy S, Marietta, GA 30060"
 ]
 
-zipCode = "47803"
+zipCode = "30060"
 
 walmartItems = [brickseekApi.createWalmartItem(sku) for sku in walmartSkusToSetNumber]
 walmartItemsCount = len(walmartItems)
